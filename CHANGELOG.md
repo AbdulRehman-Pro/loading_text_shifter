@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Add demo gif to README.
+
 ## 1.0.0
 
 - Initial release.
