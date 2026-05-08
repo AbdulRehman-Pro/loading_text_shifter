@@ -1,0 +1,25 @@
+name: loading_text_shifter
+description: A vertically shifting loading indicator that cycles through messages with smooth fades, animated text styles, and async per-step gating.
+version: 1.0.0
+homepage: https://github.com/AbdulRehman-Pro/loading_text_shifter
+repository: https://github.com/AbdulRehman-Pro/loading_text_shifter
+issue_tracker: https://github.com/AbdulRehman-Pro/loading_text_shifter/issues
+
+topics:
+  - loading
+  - animation
+  - widget
+  - ui
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

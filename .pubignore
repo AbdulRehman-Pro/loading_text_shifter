@@ -1,0 +1,25 @@
+# When .pubignore exists, pub stops consulting .gitignore — re-state the
+# build/tooling artifacts here so they don't ship in the published archive.
+.dart_tool/
+build/
+coverage/
+.idea/
+*.iml
+.DS_Store
+
+# Internal docs not useful to package consumers.
+CLAUDE.md
+
+# Example app — only its source is useful on pub.dev. Strip build artifacts
+# and platform folders so the archive stays small.
+example/.dart_tool/
+example/.idea/
+example/.metadata
+example/android/
+example/build/
+example/ios/
+example/linux/
+example/macos/
+example/windows/
+example/web/
+example/pubspec.lock
