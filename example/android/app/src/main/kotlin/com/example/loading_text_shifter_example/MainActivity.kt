@@ -1,4 +1,4 @@
-package com.example.wheel_scroll
+package com.example.loading_text_shifter_example
 
 import io.flutter.embedding.android.FlutterActivity
 
