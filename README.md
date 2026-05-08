@@ -5,6 +5,8 @@ messages, fading the edges and animating text styles between adjacent and center
 states. Supports async per-step gating so you can pause on a specific step until
 an API responds, then decide whether to continue.
 
+![demo](https://raw.githubusercontent.com/AbdulRehman-Pro/loading_text_shifter/main/doc/demo.gif)
+
 ## Features
 
 - Smooth vertical slide between messages with top/bottom gradient fades.
